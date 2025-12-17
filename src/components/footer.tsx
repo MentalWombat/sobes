@@ -1,4 +1,5 @@
 import Nav from './footer-nav';
+import Theme from './theme';
 
 export default function Footer() {
   return (
@@ -7,6 +8,7 @@ export default function Footer() {
         © 2025 ПройдуСобес
         <Nav />
       </div>
+      <Theme />
     </footer>
   );
 }
