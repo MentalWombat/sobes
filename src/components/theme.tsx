@@ -19,9 +19,5 @@ if (typeof window !== 'undefined') {
 }
 
 export default function Theme() {
-  return (
-    <div>
-      <Switch theme={theme} />
-    </div>
-  );
+  return <Switch theme={theme} />;
 }
