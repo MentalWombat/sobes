@@ -21,7 +21,6 @@ export default function Nav() {
   return (
     <nav className="sm:inline">
       <NavLink href="/">Home</NavLink>
-      <NavLink href="/v0">v0</NavLink>
       <NavLink href="/v1">v1</NavLink>
       <NavLink href="/v2">v2</NavLink>
     </nav>
