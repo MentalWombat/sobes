@@ -42,7 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${jbMono.variable} antialiased`}>
-        <div className="font-body grid min-h-screen grid-rows-[auto_1fr_auto]">
+        <div className="font-body grid min-h-dvh grid-rows-[auto_1fr_auto]">
           <Header />
           <main className="2xl:mx-auto 2xl:w-7xl">{children}</main>
           <Footer />
