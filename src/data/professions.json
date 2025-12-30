@@ -1,0 +1,214 @@
+[
+  {
+    "code": "SIS_ANAL",
+    "group_code": "QUALITY_DELIVERY",
+    "name": "Systems Analyst"
+  },
+  {
+    "code": "MOBILE_AUTO_TESTER",
+    "group_code": "QUALITY_DELIVERY",
+    "name": "AQA Mobile"
+  },
+  {
+    "code": "AUTO_TESTER",
+    "group_code": "QUALITY_DELIVERY",
+    "name": "AQA Web"
+  },
+  {
+    "code": "FRONT_ANGULAR_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "Angular"
+  },
+  {
+    "code": "ASM_DEV",
+    "name": "Assembly"
+  },
+  {
+    "code": "C_DEV",
+    "group_code": "BACKEND",
+    "name": "C"
+  },
+  {
+    "code": "CSHARP_DEV",
+    "group_code": "BACKEND",
+    "name": "C#"
+  },
+  {
+    "code": "CPP_DEV",
+    "group_code": "BACKEND",
+    "name": "C++"
+  },
+  {
+    "code": "CDC_STREAM_ENG",
+    "name": "CDC Streaming Data"
+  },
+  {
+    "code": "CV_ENGINEER",
+    "name": "Computer Vision"
+  },
+  {
+    "code": "DATA_ANALYST",
+    "name": "Data Analyst"
+  },
+  {
+    "code": "DATA_SCIENTIST",
+    "name": "Data Scientist"
+  },
+  {
+    "code": "DEVOPS",
+    "group_code": "QUALITY_DELIVERY",
+    "name": "DevOps"
+  },
+  {
+    "code": "ETL_PIPELINE_ENG",
+    "name": "ETL/ELT Pipeline"
+  },
+  {
+    "code": "FLUTTER_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "Flutter"
+  },
+  {
+    "code": "GO_DEV",
+    "group_code": "BACKEND",
+    "name": "Go"
+  },
+  {
+    "code": "JAVA_DEV",
+    "group_code": "BACKEND",
+    "name": "Java"
+  },
+  {
+    "code": "JULIA_DEV",
+    "name": "Julia"
+  },
+  {
+    "code": "KOTLIN_BACK_DEV",
+    "group_code": "BACKEND",
+    "name": "Kotlin"
+  },
+  {
+    "code": "KOTLIN_MOBILE",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "Kotlin Mobile"
+  },
+  {
+    "code": "LUA_DEV",
+    "name": "Lua"
+  },
+  {
+    "code": "MLOPS_ENGINEER",
+    "name": "MLOps"
+  },
+  {
+    "code": "ML_ENGINEER",
+    "name": "Machine Learning"
+  },
+  {
+    "code": "MATLAB_DEV",
+    "name": "MatLab"
+  },
+  {
+    "code": "NLP_ENGINEER",
+    "name": "NLP"
+  },
+  {
+    "code": "NODE_DEV",
+    "group_code": "BACKEND",
+    "name": "Node.js"
+  },
+  {
+    "code": "PHP_DEV",
+    "group_code": "BACKEND",
+    "name": "PHP"
+  },
+  {
+    "code": "PENTESTER",
+    "name": "Pentester"
+  },
+  {
+    "code": "POWER_BI_ANALYST",
+    "name": "Power BI"
+  },
+  {
+    "code": "PYTHON_DEV",
+    "group_code": "BACKEND",
+    "name": "Python"
+  },
+  {
+    "code": "PY_DATA_ENG",
+    "name": "Python Data"
+  },
+  {
+    "code": "TESTER",
+    "group_code": "QUALITY_DELIVERY",
+    "name": "QA"
+  },
+  {
+    "code": "R_DEV",
+    "name": "R"
+  },
+  {
+    "code": "REACTNATIVE_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "React Native"
+  },
+  {
+    "code": "FRONT_REACT_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "React"
+  },
+  {
+    "code": "RESEARCH_ML_SCI",
+    "name": "Research ML"
+  },
+  {
+    "code": "RAILS_DEV",
+    "group_code": "BACKEND",
+    "name": "Ruby on Rails"
+  },
+  {
+    "code": "RUST_DEV",
+    "group_code": "BACKEND",
+    "name": "Rust"
+  },
+  {
+    "code": "RUST_BLOCK_DEV",
+    "name": "Rust Blockchain"
+  },
+  {
+    "code": "SQL_DEV",
+    "name": "SQL"
+  },
+  {
+    "code": "SCALA_DEV",
+    "group_code": "BACKEND",
+    "name": "Scala"
+  },
+  {
+    "code": "SCALA_BIGDATA_ENG",
+    "name": "Scala Big Data"
+  },
+  {
+    "code": "SOL_BLOCK_DEV",
+    "name": "Solidity Blockchain"
+  },
+  {
+    "code": "SPARK_DATA_ENG",
+    "name": "Spark Data"
+  },
+  {
+    "code": "SWIFT_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "Swift"
+  },
+  {
+    "code": "TABLEAU_ANALYST",
+    "name": "Tableau"
+  },
+  {
+    "code": "FRONT_VUE_DEV",
+    "group_code": "FRONTEND_MOBILE",
+    "name": "Vue"
+  }
+]
