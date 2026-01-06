@@ -7,7 +7,8 @@ export default function Header() {
       <div className="relative isolate flex items-center gap-1.5 2xl:flex-none">
         <Image
           className="hue-rotate-330 invert-100"
-          src="/logo.webp"
+          // src="/logo.webp"
+          src="https://sobes.run/images/logo.webp"
           alt="Пройду Собес logo"
           width={120}
           height={120}
