@@ -1,12 +1,15 @@
-import Nav from '@/components/footer-nav';
+import Group, { type Code } from './group';
+
+const GROUP_CODES: Code[] = ['FRONTEND_MOBILE', 'BACKEND', 'QUALITY_DELIVERY'];
 
 export default function Page() {
   return (
-    <div className="bg-block p-12 text-center 2xl:rounded-xl">
-      <div>Welcome to A/B testing</div>
-      <div className="mb-4">Choose v1 or v2</div>
-      <div className="-ml-1">
-        <Nav />
+    <div className="p-6">
+      Шаг 1. Выберите направление:
+      <div className="mt-6 flex flex-col gap-3 sm:gap-8 md:grid md:grid-cols-3">
+        {GROUP_CODES.map((code) => (
+          <Group key={code} code={code} />
+        ))}
       </div>
     </div>
   );

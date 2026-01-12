@@ -13,6 +13,12 @@ function Sets() {
       <Button title="Вариант 2" />
       <Button title="Вариант 3" />
       <Button title="Вариант 4" />
+      <Button title="Вариант 5" />
+      <Button title="Вариант 6" />
+      <Button title="Вариант 7" />
+      <Button title="Вариант 8" />
+      <Button title="Вариант 9" />
+      <Button title="Вариант 10" />
     </div>
   );
 }
