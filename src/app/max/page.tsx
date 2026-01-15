@@ -4,7 +4,7 @@ function Button({ children }: { children: string }) {
   return (
     <Link
       className="hover:border-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-xl md:text-base"
-      href="/slug/test"
+      href="/max/test"
     >
       {children}
     </Link>
@@ -20,6 +20,10 @@ function Sets() {
       <Button>Вариант 4</Button>
       <Button>Вариант 5</Button>
       <Button>Вариант 6</Button>
+      <Button>Вариант 7</Button>
+      <Button>Вариант 8</Button>
+      <Button>Вариант 9</Button>
+      <Button>Вариант 10</Button>
     </div>
   );
 }
