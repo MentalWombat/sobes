@@ -19,10 +19,18 @@ function NavLink({ children, href }: { children: string; href: string }) {
 
 export default function Nav() {
   return (
-    <nav className="sm:inline">
+    <nav className="border-t-subtle border-t px-6 py-3 sm:inline 2xl:mx-auto 2xl:w-7xl">
       <NavLink href="/">Home</NavLink>
       <NavLink href="/slug">Slug</NavLink>
       <NavLink href="/slug/test">Test</NavLink>
+      <div className="mt-1 sm:mt-0 sm:inline">
+        <span className="sm:ml-2">MIN</span>
+        <NavLink href="/min">Slug</NavLink>
+        <NavLink href="/min/test">Test</NavLink>
+        <span className="ml-2">MAX</span>
+        <NavLink href="/max">Slug</NavLink>
+        <NavLink href="/max/test">Test</NavLink>
+      </div>
     </nav>
   );
 }
