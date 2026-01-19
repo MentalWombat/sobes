@@ -1,0 +1,166 @@
+[
+  {
+    "id": "DEVOPS_FOUNDATIONS",
+    "name": "Принципы DevOps, CI/CD и автоматизация",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_CULTURE",
+    "name": "DevOps-культура, CALMS, GitOps и инфраструктурный подход",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_SITE_RELIABILITY",
+    "name": "SRE и управление надёжностью систем",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_GIT_WORKFLOWS",
+    "name": "Git, GitFlow, trunk-based development",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_GIT_INTEGRATION",
+    "name": "Интеграция Git в CI/CD пайплайны",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_CI_TOOLS",
+    "name": "CI-инструменты: GitHub Actions, GitLab CI, Jenkins",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_CD_TOOLS",
+    "name": "CD-инструменты: ArgoCD, Spinnaker, Flux",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_PIPELINE_STAGES",
+    "name": "Этапы CI/CD: сборка, тесты, деплой, rollback",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_ARTIFACTS",
+    "name": "Артефакты и репозитории: Docker Registry, Nexus",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_DOCKER",
+    "name": "Docker: Dockerfile, образы, volume, network",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_CONTAINER_SECURITY",
+    "name": "Безопасность контейнеров и сканирование образов",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_PODMAN_LXC",
+    "name": "Альтернативы Docker: Podman, LXC, CRI-O",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_K8S_BASICS",
+    "name": "Основы Kubernetes: Pods, Deployments, Services",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_K8S_OPERATIONS",
+    "name": "Управление кластерами, Helm, ingress, secrets",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_K8S_ADVANCED",
+    "name": "Custom resources, operators, autoscaling",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_SERVICE_MESH",
+    "name": "Service Mesh: Istio, Linkerd, envoy",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_TERRAFORM",
+    "name": "Terraform: модули, переменные, workspace",
+    "questionCount": 10
+  },
+  { "id": "DEVOPS_ANSIBLE", "name": "Ansible: playbooks, roles, templates", "questionCount": 10 },
+  { "id": "DEVOPS_CLOUDFORMATION", "name": "CloudFormation и CDK (AWS)", "questionCount": 10 },
+  { "id": "DEVOPS_PULUMI", "name": "Pulumi и программируемая инфраструктура", "questionCount": 10 },
+  { "id": "DEVOPS_AWS", "name": "AWS: EC2, S3, IAM, EKS, CodePipeline", "questionCount": 10 },
+  { "id": "DEVOPS_GCP", "name": "GCP: GKE, Cloud Build, Cloud Run", "questionCount": 10 },
+  { "id": "DEVOPS_AZURE", "name": "Azure: AKS, DevOps, Resource Manager", "questionCount": 10 },
+  {
+    "id": "DEVOPS_MULTI_CLOUD",
+    "name": "Мультиоблачные решения и архитектура",
+    "questionCount": 10
+  },
+  { "id": "DEVOPS_LOGGING", "name": "Сбор логов: ELK, Loki, Fluentd", "questionCount": 10 },
+  {
+    "id": "DEVOPS_METRICS",
+    "name": "Метрики и мониторинг: Prometheus, Grafana, VictoriaMetrics",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_TRACING",
+    "name": "Трассировка: OpenTelemetry, Jaeger, Zipkin",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_ALERTING",
+    "name": "Alerting и управление инцидентами: Alertmanager, PagerDuty",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_SECURITY_BASICS",
+    "name": "Основы DevSecOps и Shift-left security",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_SECRETS_MANAGEMENT",
+    "name": "Управление секретами: Vault, Sealed Secrets, KMS",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_INFRA_SECURITY",
+    "name": "Безопасность инфраструктуры и контроль доступа",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_COMPLIANCE",
+    "name": "Соответствие стандартам: SOC2, ISO 27001, CIS Benchmarks",
+    "questionCount": 10
+  },
+  { "id": "DEVOPS_SCALABILITY", "name": "Масштабируемость и автошардинг", "questionCount": 10 },
+  {
+    "id": "DEVOPS_LOAD_TESTING",
+    "name": "Нагрузочное тестирование (k6, JMeter)",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_CHAOS_ENGINEERING",
+    "name": "Chaos engineering: тестирование отказов",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_HIGH_AVAILABILITY",
+    "name": "HA, резервирование, балансировка",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_OBSERVABILITY_TOOLS",
+    "name": "Наблюдаемость: Datadog, New Relic, Dynatrace",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_PLATFORM_ENGINEERING",
+    "name": "Platform Engineering и developer self-service",
+    "questionCount": 10
+  },
+  {
+    "id": "DEVOPS_RELEASE_STRATEGIES",
+    "name": "Canary, Blue/Green, Feature Flags",
+    "questionCount": 10
+  },
+  { "id": "DEVOPS_COST_OPTIMIZATION", "name": "Оптимизация затрат в облаке", "questionCount": 10 }
+]

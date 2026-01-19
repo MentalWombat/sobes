@@ -1,0 +1,14 @@
+[
+  { "id": "SIS_ANAL_BPMN", "name": "BPMN-диаграммы", "questionCount": 10 },
+  { "id": "SIS_ANAL_UML", "name": "UML-диаграммы", "questionCount": 10 },
+  { "id": "SIS_ANAL_REST", "name": "REST API", "questionCount": 10 },
+  { "id": "SIS_ANAL_REQ", "name": "Сбор и анализ требований", "questionCount": 10 },
+  { "id": "SIS_ANAL_DOC", "name": "Документация и спецификации", "questionCount": 10 },
+  { "id": "SIS_ANAL_SQL", "name": "Основы SQL для аналитика", "questionCount": 10 },
+  {
+    "id": "SIS_ANAL_INTEGRATION",
+    "name": "Интеграции и взаимодействие систем",
+    "questionCount": 10
+  },
+  { "id": "SIS_ANAL_ARCH", "name": "Архитектура и уровни системы", "questionCount": 10 }
+]

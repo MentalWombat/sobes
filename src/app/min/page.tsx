@@ -1,9 +1,13 @@
 import Link from 'next/link';
 
+import Constructor from '@/components/constructor';
+
+import data from './data.json';
+
 function Button({ children }: { children: string }) {
   return (
     <Link
-      className="hover:border-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-xl md:text-base"
+      className="hover:border-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-center text-xl md:text-base"
       href="/min/test"
     >
       {children}
@@ -13,7 +17,7 @@ function Button({ children }: { children: string }) {
 
 function Sets() {
   return (
-    <div className="mt-6 flex flex-col flex-wrap gap-3 sm:flex-row">
+    <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-row sm:flex-wrap">
       <Button>Вариант 1</Button>
       <Button>Вариант 2</Button>
       <Button>Вариант 3</Button>
@@ -25,10 +29,9 @@ function Sets() {
 export default async function Page() {
   return (
     <div className="p-6">
-      Шаг 2. Выберите готовый вариант:
+      <div className="mb-6">Шаг 2. Выберите готовый вариант:</div>
       <Sets />
-      <div className="mt-6 sm:pl-17">Или составьте свой вариант с&nbsp;помощью конструктора:</div>
-      <div className="mt-6">CONSTRUCTOR UNDER CONSTRUCTION</div>
+      <Constructor data={data} />
     </div>
   );
 }

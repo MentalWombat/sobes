@@ -8,6 +8,7 @@
   --background: oklch(0.9791 0 0);
   --block: oklch(1 0 0);
   --foreground: oklch(0.3523 0 0);
+  --foreground1: oklch(0.9791 0 0);
   --subtle: oklch(0.4926 0 0);
 }
 
@@ -17,6 +18,7 @@
   --background: oklch(0.209 0 0);
   --block: oklch(0.2393 0 0);
   --foreground: oklch(0.8452 0 0);
+  --foreground1: oklch(0.8452 0 0);
   --subtle: oklch(0.6201 0 0);
 }
 
@@ -26,6 +28,7 @@
   --color-background: var(--background);
   --color-block: var(--block);
   --color-foreground: var(--foreground);
+  --color-foreground1: var(--foreground1);
   --color-subtle: var(--subtle);
   --font-body: var(--font-jb-mono);
 }

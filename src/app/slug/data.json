@@ -1,0 +1,57 @@
+[
+  { "id": "REACT_JSX", "name": "JSX и рендеринг компонентов", "questionCount": 10 },
+  {
+    "id": "REACT_COMPONENTS",
+    "name": "Классовые и функциональные компоненты",
+    "questionCount": 10
+  },
+  {
+    "id": "REACT_PROPS_STATE",
+    "name": "Props, state, жизненный цикл компонентов",
+    "questionCount": 10
+  },
+  { "id": "REACT_HOOKS_BASIC", "name": "useState, useEffect", "questionCount": 10 },
+  { "id": "REACT_HOOKS_CUSTOM", "name": "Пользовательские хуки", "questionCount": 10 },
+  {
+    "id": "REACT_HOOKS_ADVANCED",
+    "name": "useMemo, useCallback, useRef, useReducer",
+    "questionCount": 10
+  },
+  { "id": "REACT_CONTEXT_API", "name": "Контекст и провайдеры", "questionCount": 10 },
+  { "id": "REACT_STATE_MANAGEMENT_REDUX", "name": "Redux и Redux Toolkit", "questionCount": 10 },
+  {
+    "id": "REACT_STATE_MANAGEMENT_OTHER",
+    "name": "Zustand, Recoil, Jotai и другие",
+    "questionCount": 10
+  },
+  {
+    "id": "REACT_ROUTER",
+    "name": "React Router: маршруты, параметры, навигация",
+    "questionCount": 10
+  },
+  { "id": "REACT_FORMS_CONTROLLED", "name": "Контролируемые компоненты", "questionCount": 10 },
+  { "id": "REACT_FORMS_LIBS", "name": "React Hook Form, Formik и Yup", "questionCount": 10 },
+  { "id": "REACT_FETCHING_BASIC", "name": "fetch, axios, useEffect", "questionCount": 10 },
+  { "id": "REACT_FETCHING_LIBS", "name": "React Query, SWR и другие", "questionCount": 10 },
+  {
+    "id": "REACT_PERFORMANCE",
+    "name": "Мемоизация, оптимизация рендеров, lazy loading",
+    "questionCount": 10
+  },
+  { "id": "REACT_STYLING_CSS", "name": "CSS Modules, styled-components", "questionCount": 10 },
+  { "id": "REACT_STYLING_LIBS", "name": "Tailwind, Material UI, Chakra UI", "questionCount": 10 },
+  { "id": "REACT_TESTING", "name": "React Testing Library, Jest, mock-и", "questionCount": 10 },
+  {
+    "id": "REACT_BEST_PRACTICES",
+    "name": "Структура проекта, соглашения, переиспользование кода",
+    "questionCount": 10
+  },
+  {
+    "id": "REACT_CODE_QUALITY",
+    "name": "Читабельность, ошибки проектирования",
+    "questionCount": 10
+  },
+  { "id": "REACT_NEXTJS", "name": "Next.js: маршруты, SSR/SSG", "questionCount": 10 },
+  { "id": "REACT_TYPESCRIPT", "name": "Типизация компонентов и хуков", "questionCount": 10 },
+  { "id": "REACT_DEVTOOLS", "name": "Инструменты отладки", "questionCount": 10 }
+]
