@@ -13,7 +13,7 @@ const jbMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'v1',
+  title: 'DESIGN DEMO v1',
   description: 'under construction',
   robots: {
     index: false,
