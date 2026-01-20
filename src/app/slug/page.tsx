@@ -27,6 +27,7 @@ function Sets() {
   );
 }
 
+// both buttons should be hovered (peer-hover), but you have to make sure peer goes before both buttons
 function OptionButton({ children }: { children: string }) {
   return (
     <button className="hover:text-foreground1 hover:bg-accent1 w-8 flex-none cursor-pointer rounded-sm sm:h-8">
