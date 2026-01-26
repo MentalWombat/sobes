@@ -1,13 +1,12 @@
 import Link from 'next/link';
 
-import Constructor from '@/components/constructor';
-
+import Constructor from './constructor';
 import data from './data.json';
 
 function Button({ children }: { children: string }) {
   return (
     <Link
-      className="hover:border-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-center text-xl md:text-base"
+      className="hover:outline-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-center text-xl hover:border-transparent hover:outline-2 md:text-base"
       href="/min/test"
     >
       {children}
