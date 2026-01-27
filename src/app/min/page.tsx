@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
-import Constructor from './constructor';
+import Constructor from '@/components/constructor';
+
 import data from './data.json';
 
 function Button({ children }: { children: string }) {
