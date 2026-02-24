@@ -20,7 +20,7 @@ function Options({ code }: { code: Code }) {
     <div className="flex flex-wrap gap-3 p-3">
       {professions.map((item) => (
         <Link
-          className="border-foreground hover:border-accent1 hover:text-accent1 rounded-md border px-4 py-2 text-2xl md:px-2 md:py-1 md:text-base"
+          className="border-foreground hover:border-accent1 hover:bg-accent1 rounded-md border px-4 py-2 text-2xl hover:text-white md:px-2 md:py-1 md:text-base"
           href="/slug"
           key={item.code}
         >

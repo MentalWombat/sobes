@@ -5,7 +5,7 @@ function Button({ href, short, variant }: { href: string; short: boolean; varian
 
   return (
     <Link
-      className="hover:outline-accent2 hover:text-accent2 border-foreground cursor-pointer rounded-lg border px-4 py-2 text-center text-xl hover:border-transparent hover:outline-2 md:text-base"
+      className="border-foreground hover:border-accent1 hover:bg-accent1 rounded-lg border px-4 py-2 text-center text-xl hover:text-white md:text-base"
       href={href}
     >
       <span className={`hidden ${sm}`}>Вариант </span>

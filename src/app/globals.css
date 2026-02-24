@@ -6,30 +6,27 @@
   --accent1: oklch(0.4915 0.15959 254.5944);
   --accent2: oklch(0.4976 0.1642 142.61);
   --background: oklch(0.9791 0 0);
-  --block: oklch(1 0 0);
   --foreground: oklch(0.3523 0 0);
-  --foreground1: oklch(0.9791 0 0);
   --subtle: oklch(0.4926 0 0);
+  --white: oklch(1 0 0);
 }
 
 .dark {
   --accent1: oklch(0.5677 0.1665 251.31);
   --accent2: oklch(0.7018 0.16 158.77);
   --background: oklch(0.209 0 0);
-  --block: oklch(0.2393 0 0);
   --foreground: oklch(0.8452 0 0);
-  --foreground1: oklch(0.8452 0 0);
   --subtle: oklch(0.6201 0 0);
+  --white: oklch(1 0 0);
 }
 
 @theme inline {
   --color-accent1: var(--accent1);
   --color-accent2: var(--accent2);
   --color-background: var(--background);
-  --color-block: var(--block);
   --color-foreground: var(--foreground);
-  --color-foreground1: var(--foreground1);
   --color-subtle: var(--subtle);
+  --color-white: var(--white);
   --font-body: var(--font-jb-mono);
 }
 
