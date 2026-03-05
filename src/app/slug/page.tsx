@@ -1,13 +1,11 @@
-import Constructor from '@/components/constructor';
-import Set from '@/components/set';
-
-import data from './data.json';
+import Constructor from './constructor';
+import Set from './set';
 
 export default async function Page() {
   return (
     <div className="p-6">
       <Set amount={6} href="/slug/test" />
-      <Constructor data={data} />
+      <Constructor />
     </div>
   );
 }

@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useRef, useState } from 'react';
 
+import data from '@/data/categories.json';
+
 function Button({
   children,
   disabled,
@@ -14,7 +16,7 @@ function Button({
 }) {
   return (
     <button
-      className="peer-hover:text-accent2 hover:not-disabled:text-accent2 peer-hover:border-accent2 hover:not-disabled:border-accent2 flex-none cursor-pointer rounded-sm peer-hover:not-disabled:border hover:not-disabled:border disabled:cursor-default disabled:text-transparent sm:h-8 sm:w-8 pointer-coarse:h-12 pointer-coarse:w-12 pointer-coarse:rounded-none"
+      className="peer-hover:text-accent2 hover:not-disabled:text-accent2 peer-hover:border-accent2 hover:not-disabled:border-accent2 flex-none rounded-sm peer-hover:not-disabled:border hover:not-disabled:border disabled:text-transparent sm:h-8 sm:w-8 pointer-coarse:h-12 pointer-coarse:w-12 pointer-coarse:rounded-none"
       disabled={disabled}
       onClick={onClick}
     >
@@ -93,7 +95,7 @@ function Run({ disabled }: { disabled: boolean }) {
   );
 }
 
-export default function Constructor({ data }: { data: { id: string; name: string }[] }) {
+export default function Constructor() {
   const init = data.map((item) => ({ id: item.id, count: 0 }));
   const payload = useRef(init);
   const [clear, setClear] = useState(0);
@@ -122,7 +124,7 @@ export default function Constructor({ data }: { data: { id: string; name: string
       <div className="my-6 text-end">{`Всего вопросов: ${sum}`}</div>
       <div className="flex justify-between">
         <button
-          className="hover:border-foreground text-l cursor-pointer rounded-lg border border-transparent px-4 py-2 text-center disabled:invisible md:text-sm"
+          className="hover:border-foreground text-l rounded-lg border border-transparent px-4 py-2 text-center disabled:invisible md:text-sm"
           disabled={sum === 0}
           onClick={reset}
         >

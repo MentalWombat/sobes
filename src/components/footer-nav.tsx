@@ -23,14 +23,7 @@ export default function Nav() {
       <NavLink href="/">Home</NavLink>
       <NavLink href="/slug">Slug</NavLink>
       <NavLink href="/slug/test">Test</NavLink>
-      <div className="mt-1 sm:mt-0 sm:inline">
-        <span className="sm:ml-2">MIN</span>
-        <NavLink href="/min">Slug</NavLink>
-        <NavLink href="/min/test">Test</NavLink>
-        <span className="ml-2">MAX</span>
-        <NavLink href="/max">Slug</NavLink>
-        <NavLink href="/max/test">Test</NavLink>
-      </div>
+      <NavLink href="/slug/test/results">Results</NavLink>
     </nav>
   );
 }
