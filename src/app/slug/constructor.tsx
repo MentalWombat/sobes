@@ -57,7 +57,7 @@ function Option({
   };
 
   return (
-    <div className="group pointer-coarse:hover:border-accent1 flex min-h-12 items-center justify-between not-last:mb-1 sm:min-h-8 sm:justify-normal sm:border-0 pointer-coarse:border">
+    <div className="group pointer-coarse:hover:border-accent2 flex min-h-12 items-center justify-between not-last:mb-1 sm:min-h-8 sm:justify-normal sm:border-0 pointer-coarse:border">
       <div className={`peer group-hover:text-accent2 ${color} grow px-2 py-1 text-xs sm:text-base`}>
         {name}
       </div>
