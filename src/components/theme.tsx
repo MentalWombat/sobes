@@ -7,14 +7,14 @@ import type { Mode } from './theme-switch';
 // disable prerendering to prevent hydration mismatches
 const Switch = dynamic(() => import('./theme-switch'), { ssr: false });
 
-let theme: Mode | null = null;
+let theme: Mode;
 
 if (typeof window !== 'undefined') {
   try {
     theme = !('theme' in localStorage) ? 'system' : localStorage.theme;
   } catch (error) {
     console.error(error);
-    theme = null;
+    theme = 'system';
   }
 }
 

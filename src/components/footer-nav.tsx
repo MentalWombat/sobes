@@ -19,7 +19,7 @@ function NavLink({ children, href }: { children: string; href: string }) {
 
 export default function Nav() {
   return (
-    <nav className="border-t-subtle border-t px-6 py-3 sm:inline 2xl:mx-auto 2xl:w-7xl">
+    <nav className="border-t-inert border-t px-6 py-3 sm:inline 2xl:mx-auto 2xl:w-7xl">
       <NavLink href="/">Home</NavLink>
       <NavLink href="/slug">Slug</NavLink>
       <NavLink href="/slug/test">Test</NavLink>

@@ -85,7 +85,7 @@ function Run({ disabled }: { disabled: boolean }) {
   return (
     <Link
       aria-disabled={disabled}
-      className="aria-disabled:text-subtle hover:border-accent1 hover:bg-accent1 border-foreground rounded-lg border px-4 py-2 text-center text-xl hover:text-white aria-disabled:cursor-default aria-disabled:border-transparent aria-disabled:hover:bg-transparent md:text-base"
+      className="aria-disabled:text-inert hover:border-accent1 hover:bg-accent1 border-foreground rounded-lg border px-4 py-2 text-center text-xl hover:text-white aria-disabled:cursor-default aria-disabled:border-transparent aria-disabled:hover:bg-transparent md:text-base"
       href={disabled ? '' : '/slug/test'}
       role="link"
     >
